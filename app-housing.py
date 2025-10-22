@@ -3,14 +3,14 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-st.set_page_config(page_title="California Housing Data (1990) by [Zhiqian Zhang]")
+st.set_page_config(page_title="California Housing Data (1990) by[Zhiqian Zhang]")
 def load_housing_data():
     df = pd.read_csv("housing.csv")
     return df
 
 df = load_housing_data()
 
-st.title("California Housing Data (1990) by FortuiTy Liu")
+st.title("California Housing Data (1990) by Zhiqian Zhang")
 st.caption("See more filters in the sidebar:")
 
 with st.sidebar:
